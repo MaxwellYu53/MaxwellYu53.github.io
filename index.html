@@ -1317,6 +1317,43 @@
         filter:none!important;
       }
     }
+    /* Accepted - 红色加粗胶囊 */
+.status-accepted{
+  color:#dc2626;
+  background:rgba(220,38,38,.12);
+  font-weight:800;
+  padding:4px 10px;
+  border-radius:999px;
+  display:inline-flex;
+  align-items:center;
+  line-height:1;
+}
+
+
+/* Under Review - 橙色加粗胶囊 */
+.status-review{
+  color:#ea580c;
+  background:rgba(234,88,12,.12);
+  font-weight:800;
+  padding:4px 10px;
+  border-radius:999px;
+  display:inline-flex;
+  align-items:center;
+  line-height:1;
+}
+
+
+/* Submitted - 绿色加粗胶囊 */
+.status-submitted{
+  color:#16a34a;
+  background:rgba(22,163,74,.12);
+  font-weight:800;
+  padding:4px 10px;
+  border-radius:999px;
+  display:inline-flex;
+  align-items:center;
+  line-height:1;
+}
   </style>
 </head>
 
@@ -1468,7 +1505,7 @@
           <div class="output-group">
             <div class="output-group-heading" data-reveal>
               <h3>论文</h3>
-              <span class="output-count">2</span>
+              <span class="output-count">8</span>
             </div>
 
             <div class="output-list">
@@ -1482,7 +1519,7 @@
                   <div class="output-meta">
                     <span class="type">Journal of Nondestructive Evaluation</span>
                     <span>2026</span>
-                    <span>Accepted</span>
+                    <span class="status-accepted">Accepted</span>
                   </div>
 
                   <a class="output-title" href="#">
@@ -1519,7 +1556,7 @@
                   </a>
 
                   <div class="output-authors">
-                    <strong>J. Chen, S. Xie, B. Hou, L. Xiao, J. Dong and J. Yang</strong> · Quadrotor trajectory tracking and disturbance rejection
+                    <strong>J. Chen, S. Xie, B. Hou, L. Xiao, J. Dong and J. Yang</strong>
                   </div>
 
                   <div class="output-links">
